@@ -1,11 +1,10 @@
-import css from './App.module.css';
+import "./App.css";
+import Clock from "./components/Clock";
 
 function App() {
-  return (
-    <div className={css.App}>
-      {/* Add your components here */}
-    </div>
-  );
+  return <div className="App">
+      <Clock />
+    </div>;
 }
 
 export default App;
